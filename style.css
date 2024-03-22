@@ -19,7 +19,7 @@ a{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #18181B;
+    background-color: #0000ca;
 }
 
 nav{
@@ -56,7 +56,7 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
+    background-color: #ff6f00;
     transition: all 0.3s ease;
 }
 
@@ -68,14 +68,14 @@ nav{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #1d4ed8;
+    background-color: #225dff;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color: #ff6f00;
 }
 
 .container{
@@ -86,7 +86,7 @@ nav{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50px #1d4ed8;
+    box-shadow: 0 0 1000px 50px #000000;
     z-index: -100;
 }
 
@@ -97,13 +97,6 @@ header{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
-}
-
-header .content h4{
-    margin-bottom: 1rem;
-    color: #ccc;
-    font-size: 1rem;
-    font-weight: 600;
 }
 
 header .content h1{
@@ -121,7 +114,7 @@ header .content h1 span{
 
 header .content p{
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #ff6f00;
 }
 
 header .image{
@@ -177,7 +170,7 @@ section .header{
 
 .features .card span{
     display: inline-block;
-    background-color: #1e40af;
+    background-color: #002dc0;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -203,7 +196,7 @@ section .header{
 }
 
 .features .card a:hover{
-    color: #1e40af;
+    color: #ff6f00;
 }
 
 .sub-header{
@@ -274,8 +267,8 @@ section .header{
 }
 
 .pricing .card button:hover{
-    background-color: #1e40af;
-    border-color: #1e40af;
+    background-color: #ff6f00;
+    border-color: #fff;
 }
 
 footer{
