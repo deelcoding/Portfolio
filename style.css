@@ -228,6 +228,7 @@ footer .column p{
 footer .column .socials{
     display: flex;
     align-items: center;
+    margin-left: 28px;
     gap: 1rem;
 }
 
