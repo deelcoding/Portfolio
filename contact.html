@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "7K3EEoac5H1gE1Qxd",
+        });
+    })();
+    </script>
+    <script src="script.js"></script>
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="./images/logo-white.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li id="link" class="link"><a href="index.html">Home</a></li>
+            <li id="link2" class="link"><a href="projects.html">Projects</a></li>
+            <li id="link3" class="link"><a href="about.html">About Me</a></li>
+            <li id="link4" class="link"><a href="contact.html">Contact Me</a></li>
+        </ul>
+        <a href="https://www.linkedin.com/in/dacotah-deel-a7a490158/" target="_blank"><button class="btn">Hire Me</button></a>
+    </nav>
+
+    <section class="container">
+        <div class="contact">
+            <div class="card">
+                <span><i class="ri-contacts-book-2-line"></i></span>
+                <h4>Email</h4>
+                <p>
+                    deelcoding@outlook.com
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-cellphone-fill"></i></span>
+                <h4>Phone</h4>
+                <p>
+                    +1(812)-827-3741
+                </p>
+            </div>
+            <div class="card2">
+                <span><i class="ri-linkedin-box-line"></i></span>
+                <a href="https://www.linkedin.com/in/dacotah-deel-a7a490158/" target="_blank"><button class="btn">Linked In</button></a>
+            </div>
+    </section>
+    <section class="container">
+        <h2 class="header">Contact directly from the website</h2>
+        <div class="contact2">
+            <div class="card2">
+                <span><i class="ri-contacts-book-2-line"></i></span>
+                <h4>Hi there!</h4>
+                <p>
+                    Fill out the information to the right to send an email directly to me!
+                </p>
+            </div>
+            <div class="card2">
+                <div class="form-group">
+                  <h4 for="name">Name</h4>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="form-group">
+                  <h4 for="email">Email</h4>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group">
+                  <h4 for="message">Message</h4>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="./images/logo-white.png">
+            </div>
+        </div>
+        <div class="column">
+            <h4>Training</h4>
+            <a href="https://tripleten.com/" target="_blank">Triple Ten</a>
+            <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="contact.html">Contact</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright © 2024 Deel Coding. All Rights Reserved.
+    </div>
+
+</body>
+
+</html>
