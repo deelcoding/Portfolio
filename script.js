@@ -20,3 +20,7 @@ function sendMail() {
       .catch(err=>console.log(err));
   
   }
+
+  function toggleNavLinksMobile(menu) {
+    menu.classList.toggle('open');
+  }
